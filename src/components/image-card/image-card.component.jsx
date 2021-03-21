@@ -1,46 +1,38 @@
 import React from 'react';
+import ImageGallery from 'react-image-gallery';
 
 import './image-card.styles.css';
 
-const catData = [
-    { 
-        id: 1,
-        imageUrl: 'https://i.pinimg.com/originals/83/83/d9/8383d90b03fbefa450fa87af0ae24058.jpg',
-        title: 'cat'
-    }, 
+const images = [
     {
-        id: 2,
-        imageUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cat-quotes-1543599392.jpg?crop=1.00xw:0.757xh;0,0&resize=1200:*',
-        title: 'kitten'
+      original: 'https://picsum.photos/id/1018/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1018/250/150/',
     },
     {
-        id: 3,
-        imageUrl: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FW-PBFMECvTE%2Fmaxresdefault.jpg&f=1&nofb=1',
-        title: 'kitten in my pants'
-    }
-]
+      original: 'https://picsum.photos/id/1015/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1019/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+  ];
 class ImageCard extends React.Component {
     constructor(props){
         super(props);
         
         this.state= {
-            images: catData
+            images: images
         };
     }
 
     render() {
         const {images} = this.state;
         return(
-            <div className='image-card'>
-                {
-                    images.map(({ id, imageUrl, title }) => ( 
-                    <img key={id} src={imageUrl} alt={title} />
-                    ))
-                }
-            </div>
+           <ImageGallery items={images}/>
         )
     }
 }
     
-    
+
 export default ImageCard;

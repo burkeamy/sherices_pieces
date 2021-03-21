@@ -2,6 +2,7 @@ import React from 'react';
 import ImageCard from '../../components/image-card/image-card.component';
 import TextCard from '../../components/text-card/text-card.component';
 
+
 import './homepage2.styles.css';
 
 const HomePage2 = () => (
