@@ -4,7 +4,7 @@
   
   .parallax {
     /* The image used */
-    background-image: url('../../assets/photos/heartBoxes.png');
+    background-image: url('../../assets/heartBoxes.png');
     opacity: .7;
   
     /* Full height */
@@ -18,7 +18,14 @@
   }
 
   h2 {
-    /*height:1000px;*/
-    background-color:red;
     font-size:36px
   }
+
+  .inner-section {
+      height: auto;
+      background-color: whitesmoke;
+  }
+
+  .text-columns {
+    column-count: 3;
+}
