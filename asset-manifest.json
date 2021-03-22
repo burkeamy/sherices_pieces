@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sherices_pieces/static/css/main.a7bb980a.chunk.css",
+    "main.js": "/sherices_pieces/static/js/main.34634cf4.chunk.js",
+    "main.js.map": "/sherices_pieces/static/js/main.34634cf4.chunk.js.map",
+    "runtime-main.js": "/sherices_pieces/static/js/runtime-main.4db486c2.js",
+    "runtime-main.js.map": "/sherices_pieces/static/js/runtime-main.4db486c2.js.map",
+    "static/css/2.0adfe8f7.chunk.css": "/sherices_pieces/static/css/2.0adfe8f7.chunk.css",
+    "static/js/2.32ac8ebb.chunk.js": "/sherices_pieces/static/js/2.32ac8ebb.chunk.js",
+    "static/js/2.32ac8ebb.chunk.js.map": "/sherices_pieces/static/js/2.32ac8ebb.chunk.js.map",
+    "index.html": "/sherices_pieces/index.html",
+    "static/css/2.0adfe8f7.chunk.css.map": "/sherices_pieces/static/css/2.0adfe8f7.chunk.css.map",
+    "static/css/main.a7bb980a.chunk.css.map": "/sherices_pieces/static/css/main.a7bb980a.chunk.css.map",
+    "static/js/2.32ac8ebb.chunk.js.LICENSE.txt": "/sherices_pieces/static/js/2.32ac8ebb.chunk.js.LICENSE.txt",
+    "static/media/homepage.styles.css": "/sherices_pieces/static/media/heartBoxes.d4569b76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4db486c2.js",
+    "static/css/2.0adfe8f7.chunk.css",
+    "static/js/2.32ac8ebb.chunk.js",
+    "static/css/main.a7bb980a.chunk.css",
+    "static/js/main.34634cf4.chunk.js"
+  ]
+}
